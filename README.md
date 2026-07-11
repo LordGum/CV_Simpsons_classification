@@ -9,8 +9,7 @@ https://www.kaggle.com/competitions/journey-to-springfield1
 
 
 ## Результаты
-Simple CNN: Оценка: 0,91923
-Fine tuning: ??? (потеряла данные, потом найду)
+Simple CNN:  Score: 0,91923 \
+Fine tuning: Score: 0.98618
 
-![Uploading image.png…]()
 
