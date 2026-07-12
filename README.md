@@ -29,11 +29,9 @@ A convolutional neural network built from scratch using PyTorch.
 Architecture includes:
 
 * Convolutional layers
-* Batch Normalization
 * ReLU activation
 * Max Pooling
 * Fully Connected layers
-* Dropout
 
 **Kaggle Score:** **0.919**
 
@@ -70,29 +68,13 @@ Transfer learning significantly outperformed the custom CNN and achieved a subst
 ```text
 CV_Simpsons_classification/
 │
-├── notebooks/          # Jupyter notebooks
+├── data/               # train and test datasets
 ├── images/             # Images for README
 ├── models/             # Saved model weights (optional)
+├── submissions/        
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-```
-
----
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/LordGum/CV_Simpsons_classification.git
-cd CV_Simpsons_classification
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ---
@@ -121,26 +103,10 @@ The following approaches were investigated:
 * Hyperparameter tuning
 
 ---
+## Train/validation loss
 
-## Future Improvements
-
-* Add confusion matrix visualization
-* Analyze misclassified images
-* Implement TensorBoard logging
-* Add model inference script
-* Support training from configuration files
-* Compare additional pretrained architectures (EfficientNet, ConvNeXt, ViT)
-
----
-
-## Key Takeaways
-
-* Implemented an image classification pipeline using PyTorch.
-* Compared a custom CNN with transfer learning.
-* Improved Kaggle score from **0.919** to **0.98618**.
-* Gained practical experience in Computer Vision, transfer learning, and model fine-tuning.
-
----
+![](images/cnn_plot.png)
+![](images/fine_tuning_plot.png)
 
 ## Author
 
