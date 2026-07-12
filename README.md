@@ -58,8 +58,8 @@ Training included:
 
 | Model             | Kaggle Score |
 | ----------------- | -----------: |
-| Custom CNN        |        0.919 |
-| Transfer Learning |  **0.98618** |
+| Custom CNN        |        0.91 |
+| Transfer Learning |  **0.98** |
 
 Transfer learning significantly outperformed the custom CNN and achieved a substantial improvement in classification accuracy.
 
