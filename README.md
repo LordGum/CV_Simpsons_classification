@@ -105,8 +105,18 @@ The following approaches were investigated:
 ---
 ## Train/validation loss
 
+### CNN 
 ![](images/cnn_plot.png)
+
+### Fine Tuning
 ![](images/fine_tuning_plot.png)
+
+---
+
+## Example of predictions
+
+![](images/fine_tuning_img_expl.png)
+
 
 ## Author
 
